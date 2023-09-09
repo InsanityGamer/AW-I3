@@ -5,7 +5,7 @@
 #Instruction: use git pull inside of your user home directory
 cd ~/Insanitys-I3-Config-files/ ;
 cp -R ./.config $HOME/ ;
-sudo dnf install Xorg lightdm slick-greeter i3 alacritty picom polybar rofi feh -y ;
-sudo systemctl set-default graphical.target ;
+cat ./dnflist3 | xargs sudo dnf install ;
+sleep 10; sudo systemctl set-default graphical.target ;
 reboot ;
 
