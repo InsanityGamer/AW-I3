@@ -8,7 +8,8 @@ spectacle
 feh              
 slick-greeter    
 lightdm          
-xrandr -y        
+xrandr
+polybar        
 pavucontrol      
 firefox          
 Xorg i3 rofi -y 
