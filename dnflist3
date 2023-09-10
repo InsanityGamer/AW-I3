@@ -10,7 +10,6 @@ slick-greeter
 lightdm          
 xrandr
 polybar
-picom        
 pavucontrol      
 firefox          
 Xorg i3 rofi -y 
