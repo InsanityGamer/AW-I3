@@ -50,7 +50,7 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec alacritty &
+bindsym $mod+Return exec qterminal &
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -212,9 +212,5 @@ exec_always --no-startup-id $HOME/.config/Polybar/launch.sh
 #exec_always --no-startup-id xrandr --output  eDP-1 --mode 1920x1080 --output HDMI-1 --mode 1920x1080 --right-of eDP-1  &
 
 #Set Background
-exec_always   --no-startup-id feh --bg-max $HOME/.config/i3/Halo_Bkgrnd.jpg
+exec_always   --no-startup-id feh --bg-max $HOME/.config/i3/bg_pic/*
 
-# Open Discord
-exec --no-startup-id flatpak run com.discordapp.Discord
-exec --no-startup-id xset s off
-exec --no-startup-id xset -dpms
