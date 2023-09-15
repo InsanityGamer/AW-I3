@@ -7,6 +7,6 @@ cd $HOME/Insanitys-I3-Config-files/ ;
 cp -R ./.config $HOME/ ;
 cat ./dnflist3 | xargs sudo dnf install ;
 ; sudo systemctl set-default graphical.target ;
-sleep 10
+sleep 10 ;
 reboot ;
 
