@@ -1,9 +1,5 @@
 htop             
-lxappearance     
-neovim           
-alacritty        
 dunst            
-cava             
 spectacle        
 feh              
 slick-greeter    
@@ -11,5 +7,5 @@ lightdm
 xrandr
 polybar
 pavucontrol      
-firefox          
+firefox  
 Xorg i3 rofi -y 
