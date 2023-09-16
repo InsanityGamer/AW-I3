@@ -206,7 +206,7 @@ client.urgent $red $red $red $red
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-exec_always --no-startup-id $HOME/.config/Polybar/launch.sh  
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh  
 
 #Set screen orientation
 #exec_always --no-startup-id xrandr --output  eDP-1 --mode 1920x1080 --output HDMI-1 --mode 1920x1080 --right-of eDP-1  &
