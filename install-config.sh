@@ -12,10 +12,5 @@ cp -R ./.config $HOME/ ;
 cat ./dnflist3 | xargs sudo dnf install ;
 #Setting user to gui target
 sudo systemctl set-default graphical.target ;
-#create temporary files in /tmp/.xrandroutput /tmp/xrandroutput2 for polybar configuration
-sudo xrandr | grep  " connected" > /tmp/.xrandroutput ; cat /tmp/.xrandroutput | cut -d " " -f 1 /tmp/.xrandroutput > /tmp/.xrandroutput2
-
-#let the dust settle
-sleep 10 ;
 reboot ;
 
