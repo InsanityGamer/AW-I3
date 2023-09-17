@@ -1,9 +1,9 @@
 # Insanitys-I3-Config-files
 Insanity's-I3-Config-files
 
-```git clone https://github.com/InsanityGamer/Insanitys--I3-Config-files```
+```git clone https://github.com/InsanityGamer/AW-I3```
 
-```bash ./Insanitys-I3-Config-files/install-config.sh```
+```bash ./AW-I3/install-config.sh```
 
 Use xrandr to figure out your display, fix poly bar as nessacary.
 
