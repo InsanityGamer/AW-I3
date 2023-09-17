@@ -5,7 +5,7 @@
 #Instruction: use git pull inside of your user home directory
 
 #Enter the file containing this script
-cd $HOME/Insanitys-I3-Config-files/ ;
+cd $HOME/AW-I3/ ;
 #Copying .config folder into USER home folder
 cp -R ./.config $HOME/ ;
 #Pass a list into dnf package manager using Xargs as a handler
