@@ -1,10 +1,9 @@
 #
 Optimal to start from a base FedoraServer/37/38/39? install
 
+```git clone https://github.com/InsanityGamer/AW-I3```
 
 ```bash ./AW-I3/install-config.sh```
-
-```git clone https://github.com/InsanityGamer/AW-I3```
 
 #
 Basic Operation the of the install-config.sh script:
@@ -76,13 +75,13 @@ Future Plans maybe:
 -Add Qemu to the dnflist and some base images to get virtual machine services setup quickly. Such as DNS, VPNs, Webhosts, Jellyfin, etc.
 #############################################################################################
 
-### System_Procedures Directory
-#  
-#   System_Procedures are a series of steps a Systems Administrator/Data Custodian might perform to acheive an end state goal 
-# 
-#   The Sytem_Procedures directory is an Obsidian vault. You can view it's contents using Obsidian Source or their Flatpak version.
-#
-#   Not recommended on a production machine. none of this is actually, but for educational purposes it would be cool to have documentation created by users on hand.
-#
-#   It is safe to delete this directory
-#
+# System_Procedures Directory
+  
+###   System_Procedures are a series of steps a Systems Administrator/Data Custodian might perform to acheive an end state goal 
+ 
+###   The Sytem_Procedures directory is an Obsidian vault. You can view it's contents using Obsidian Source or their Flatpak version.
+
+###   Not recommended on a production machine. none of this is actually, but for educational purposes it would be cool to have documentation created by users on hand.
+
+###   It is safe to delete this directory
+
