@@ -71,7 +71,14 @@ Goals:
 -provides a quick method of installing a lightweight GUI and basic tools.
 
 
-
 Future Plans maybe:
 
 -Add Qemu to the dnflist and some base images to get virtual machine services setup quickly. Such as DNS, VPNs, Webhosts, Jellyfin, etc.
+#############################################################################################
+
+### System_Procedures Directory
+#   
+#   Sytem_Procedures is an Obsidian vault. You can view it's contents using Obsidian Source or the Flatpak.
+#
+#   Not recommended on a production machine. none of this is actually, but for educational purposes it would be cool to have documentation created by users on hand.
+#
