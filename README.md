@@ -4,10 +4,12 @@ Optimal to start from a base FedoraServer/37/38/39? install
 ```git clone https://github.com/InsanityGamer/AW-I3```
 
 ```bash ./AW-I3/install-config.sh```
+#
+
+Basic Operation the of the install-config.sh script:
 
 #
-Basic Operation the of the install-config.sh script:
-##
+
 (1) .config directory has files with ready made .conf files.
     
     (a) ./AW-I3/.config is copied to your $HOME/.config
@@ -28,7 +30,7 @@ Basic Operation the of the install-config.sh script:
 
     (f) Xorg, I3(configured as I3-Gaps), Xrandr for display stuff. buncha computer science stuff. I'm still trying to figure out how to use Wayland.
 
-    (g) polybar for overall system monitoring (network monitoring,to include your IP address) has been commented out for network security purposes)
+    (g) polybar for overall system monitoring (network monitoring,to include your IP address has been commented out for network security purposes)
 
        (1.) Todo list: remove the ability to see hostname in polybar config for security purposes. 
 
@@ -41,8 +43,9 @@ Basic Operation the of the install-config.sh script:
 
 
 (3) set system to graphical.target and reboot
+#############################################################################################
 
-Things To Consider:
+## Things To Consider:
 
     (1) Pre-built Config Files
 
@@ -63,14 +66,14 @@ Things To Consider:
        (C.) rofi comes with its own configuration tool, so thats cool, but also i did find the full .conf file, i dont remember where or how, but i added the ability to see program Icons and left everything else uncommented or untouched. dig around in there at your own cost.
 #############################################################################################
 
-Goals:
+## Goals:
 
 -integrate new things i learn about linux, security, networking, and services.
 
 -provides a quick method of installing a lightweight GUI and basic tools.
 
 
-Future Plans maybe:
+## Future Plans maybe:
 
 -Add Qemu to the dnflist and some base images to get virtual machine services setup quickly. Such as DNS, VPNs, Webhosts, Jellyfin, etc.
 #############################################################################################
