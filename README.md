@@ -10,9 +10,11 @@ Optimal to start from a base FedoraServer/37/38/39? install
 Basic Operation the of the install-config.sh script:
 ##
 (1) .config directory has files with ready made .conf files.
->       (a.) ./AW-I3/.config is copied to your $HOME/.config
+    
+    (a) ./AW-I3/.config is copied to your $HOME/.config
  
 (2) reach into Fedoras repos and grab basic utilities for a lightweight graphical interface Based on I3-Gaps.
+
     (a) ./dnflist3 is calling for rpms using the "Dandified YUM" or just the DNF package manager(Rhel, Centos, Fedora)
 
     (b) rofi is a menu utility that provides quick access to installed programs
@@ -64,7 +66,7 @@ Things To Consider:
 
 Goals:
 
--integrate new things i learn about linux.
+-integrate new things i learn about linux, security, networking, and services.
 
 -provides a quick method of installing a lightweight GUI and basic tools.
 
