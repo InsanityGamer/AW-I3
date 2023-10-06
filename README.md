@@ -1,17 +1,18 @@
-#Optimal to start from a base FedoraServer/37/38/39? install
+#
+Optimal to start from a base FedoraServer/37/38/39? install
 
 
 ```bash ./AW-I3/install-config.sh```
 
 ```git clone https://github.com/InsanityGamer/AW-I3```
 
-
-##Basic Operation the of the install-config.sh script:
-
-###(1) .config directory has files with ready made .conf files.
+#
+Basic Operation the of the install-config.sh script:
+##
+(1) .config directory has files with ready made .conf files.
        (a.) ./AW-I3/.config is copied to your $HOME/.config
- 
-###(2) reach into Fedoras repos and grab basic utilities for a lightweight graphical interface Based on I3-Gaps.
+## 
+(2) reach into Fedoras repos and grab basic utilities for a lightweight graphical interface Based on I3-Gaps.
     (a) ./dnflist3 is calling for rpms using the "Dandified YUM" or just the DNF package manager(Rhel, Centos, Fedora)
     (b) rofi is a menu utility that provides quick access to installed programs
     (c) firefox for browsing. i could use lynx or links but sometimes convienence trumps performance.
@@ -24,8 +25,8 @@
        (2.) Find a more efficient bar or make polybar prettier
     (h) htop for more detailed system performance
     (i) qterminal for terminal
-
-###(3) set system to graphical.target and reboot
+##
+(3) set system to graphical.target and reboot
 
 Things To Consider:
     (1) Pre-built Config Files
