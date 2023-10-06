@@ -13,18 +13,18 @@ Basic Operation the of the install-config.sh script:
        (a.) ./AW-I3/.config is copied to your $HOME/.config
 ## 
 (2) reach into Fedoras repos and grab basic utilities for a lightweight graphical interface Based on I3-Gaps.
-    (a) ./dnflist3 is calling for rpms using the "Dandified YUM" or just the DNF package manager(Rhel, Centos, Fedora)
-    (b) rofi is a menu utility that provides quick access to installed programs
-    (c) firefox for browsing. i could use lynx or links but sometimes convienence trumps performance.
-    (d) pavucontrol for audio control.
-    (e) LightDM as the display manager(Login screen), you will have to take a visit to the /etc/ folders to select a picture for your lightdm BackGround pic.
-        (1.) Slick-greeter is for lightdm its a greeter...
-    (f) Xorg, I3(configured as I3-Gaps), Xrandr for display stuff. buncha computer science stuff. I'm still trying to figure out how to use Wayland.
-    (g) polybar for overall system monitoring (network monitoring,to include your IP address) has been commented out for network security purposes)
-       (1.) Todo list: remove the ability to see hostname in polybar config for security purposes. 
-       (2.) Find a more efficient bar or make polybar prettier
-    (h) htop for more detailed system performance
-    (i) qterminal for terminal
+>    (a) ./dnflist3 is calling for rpms using the "Dandified YUM" or just the DNF package manager(Rhel, Centos, Fedora)
+>    (b) rofi is a menu utility that provides quick access to installed programs
+>    (c) firefox for browsing. i could use lynx or links but sometimes convienence trumps performance.
+>    (d) pavucontrol for audio control.
+>    (e) LightDM as the display manager(Login screen), you will have to take a visit to the /etc/ folders to select a picture for your lightdm BackGround pic.
+>>        (1.) Slick-greeter is for lightdm its a greeter...
+>    (f) Xorg, I3(configured as I3-Gaps), Xrandr for display stuff. buncha computer science stuff. I'm still trying to figure out how to use Wayland.
+>    (g) polybar for overall system monitoring (network monitoring,to include your IP address) has been commented out for network security purposes)
+>>       (1.) Todo list: remove the ability to see hostname in polybar config for security purposes. 
+>>       (2.) Find a more efficient bar or make polybar prettier
+>    (h) htop for more detailed system performance
+>    (i) qterminal for terminal
 ##
 (3) set system to graphical.target and reboot
 
