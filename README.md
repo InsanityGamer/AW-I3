@@ -60,3 +60,16 @@ Things To Consider:
               - enabled rofi
 
        (C.) rofi comes with its own configuration tool, so thats cool, but also i did find the full .conf file, i dont remember where or how, but i added the ability to see program Icons and left everything else uncommented or untouched. dig around in there at your own cost.
+#############################################################################################
+
+Goals:
+
+-integrate new things i learn about linux.
+
+-provides a quick method of installing a lightweight GUI and basic tools.
+
+
+
+Future Plans maybe:
+
+-Add Qemu to the dnflist and some base images to get virtual machine services setup quickly. Such as DNS, VPNs, Webhosts, Jellyfin, etc.
