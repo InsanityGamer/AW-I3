@@ -81,7 +81,7 @@ Future Plans maybe:
  
 ###   The Sytem_Procedures directory is an Obsidian vault. You can view it's contents using Obsidian Source or their Flatpak version.
 
-###   Not recommended on a production machine. none of this is actually, but for educational purposes it would be cool to have documentation created by users on hand.
+###   Not recommended on a production machine, none of this is actually, but for educational purposes it would be cool to have documentation created by users on hand.
 
 ###   It is safe to delete this directory
 
