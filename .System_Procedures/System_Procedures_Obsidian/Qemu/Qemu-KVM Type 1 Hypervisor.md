@@ -1,6 +1,8 @@
-
+1.)
 https://docs.fedoraproject.org/en-US/quick-docs/virtualization-an-overview/
 
+Tutorial:
+https://youtu.be/BgZHbCDFODk?si=ZjfIjOg8NNGEWISF
 # Reasons to Use:
 
 "QEMU achieves near native performance" - [[qemu]] docs	
@@ -14,8 +16,9 @@ By having a virtualized environment on hand you can test changes iteratively and
 
 You could utilize this to have a "windows box" for convenience.
 
-"virtual guests can use the host machine as a gateway and can connect out via it. If you need to provide services on your guests that are reachable via other machines on your host network you can use iptables DNAT rules to forward in specific ports, or you can set up a bridged environment." -fedora docs
-	A Note on this. Iptables was out dated by firewall-cmd. Use firewall-cmd to forward services.
+"virtual guests can use the host machine as a gateway and can connect out via it. If you need to provide services on your guests that are reachable via other machines on your host network you can use iptables DNAT rules to forward in specific ports, or you can set up a bridged environment." -[[Fedora]] docs
+
+	Firewalld? why use iptables?
 
 [[Install Qemu-KVM]]
 
