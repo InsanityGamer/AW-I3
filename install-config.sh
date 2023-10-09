@@ -8,6 +8,8 @@
 cd $HOME/AW-I3/ ;
 #Copying .config folder into USER home folder
 cp -R ./.config $HOME/ ;
+#optimize fedora
+sudo echo "max_parallel_downloads=10" >> /etc/dnf/dnf.conf
 #Pass a list into dnf package manager using Xargs as a handler
 cat ./dnflist3 | xargs sudo dnf install ;
 #Setting user to gui target
