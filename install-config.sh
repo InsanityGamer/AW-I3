@@ -10,6 +10,9 @@ cd $HOME/AW-I3/ ;
 cp -R ./.config $HOME/ ;
 #Pass a list into dnf package manager using Xargs as a handler
 cat ./dnflist3 | xargs sudo dnf install ;
+#flathub repo added
+flatpak remote-add --if-not-exists flathub \
+       	https://dl.flathub.org/repo/flathub.flatpakrepo 
 #Setting user to gui target
 sudo systemctl set-default graphical.target ;
 reboot ;
