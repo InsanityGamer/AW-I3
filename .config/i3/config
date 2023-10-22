@@ -190,19 +190,16 @@ default_floating_border none
 # Inner gaps for all windows: space between two adjacent windows (or split containers).
 gaps inner 10
 gaps outer 10
-set $red         #ff0000
-set $red-green   #0ff000
-set $green       #00ff00
-set $green-blue  #000ff0
-set $blue        #0000ff
-set $blue-red    #f0000f
-set $red         #ff0000 
+set $blue #030657
+set $white #ffffff
+set $lblue #4dbcda
+set $red #a00000
 
 # class           		      border 	 backgr. text    	indicator child_border
-client.focused $red  $red $red $red
-client.focused_inactive $red-green $red-green $red-green $red-green
-client.unfocused $blue-red $blue-red $blue-red $blue-red
-client.urgent $blue $blue $blue $blue
+client.focused $lblue $lblue $lblue $lblue
+client.focused_inactive $blue $blue $blue $blue
+client.unfocused $blue $blue $blue $blue
+client.urgent $red $red $red $red
 #client.placeholder 
 
 #client.background 
