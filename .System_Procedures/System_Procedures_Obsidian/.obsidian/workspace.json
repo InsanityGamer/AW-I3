@@ -23,12 +23,8 @@
             "id": "059b49e441e6a35c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Qemu/Create a Virtual Machine using a GUI.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -43,7 +39,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +107,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Qemu/Qemu-KVM Type 1 Hypervisor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +123,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Qemu/Qemu-KVM Type 1 Hypervisor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +144,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Qemu/Qemu-KVM Type 1 Hypervisor.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -171,20 +164,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "58aa2bf11fd4e1cb",
+  "active": "059b49e441e6a35c",
   "lastOpenFiles": [
+    "2023-10-12.md",
+    "Untitled.canvas",
     "Qemu/Create a Virtual Machine using a GUI.md",
+    "Qemu/Qemu-KVM Type 1 Hypervisor.md",
     "Qemu/Create a Virtual Machine.md",
     "Qemu/Install Qemu-KVM.md",
     "System Procedure Index.md",
-    "Qemu/Qemu-KVM Type 1 Hypervisor.md",
     "Polybar/polybar.md",
     "Fedora/Fedora.md",
     "2023-10-07.md",
     "Untitled 3.canvas",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
-    "Untitled.canvas",
     "I3.md",
     "Polybar",
     "Qemu/kvm.md",
