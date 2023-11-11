@@ -8,6 +8,8 @@
 cd $HOME/AW-I3/ ;
 #Copying .config folder into USER home folder
 cp -R ./.config $HOME/ ;
+cp -R ./.themes $HOME/ ;
+cp -R ./.icons $HOME/ ;
 #Pass a list into dnf package manager using Xargs as a handler
 cat ./dnflist3 | xargs sudo dnf install ;
 #flathub repo added
