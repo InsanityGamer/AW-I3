@@ -149,4 +149,7 @@ configuration {
       sorting-method:    "name";
   }
 }
-@theme "Theme.rasi"
+//@theme "Theme.rasi"
+//@theme "/usr/share/rofi/themes/arthur.rasi"
+//@theme "/usr/share/rofi/themes/sidebar-v2.rasi"
+@theme "/usr/share/rofi/themes/gruvbox-dark-hard.rasi"

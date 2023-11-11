@@ -190,9 +190,9 @@ default_floating_border none
 # Inner gaps for all windows: space between two adjacent windows (or split containers).
 gaps inner 10
 gaps outer 10
-set $blue #030657
+set $blue #035e02
 set $white #ffffff
-set $lblue #4dbcda
+set $lblue #0bed07
 set $red #a00000
 
 # class           		      border 	 backgr. text    	indicator child_border
@@ -206,7 +206,7 @@ client.urgent $red $red $red $red
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-exec_always --no-startup-id $HOME/.config/polybar/launch.sh  
+exec_always --no-startup-id   xfce4-panel
 
 #Set screen orientation
 #exec_always --no-startup-id xrandr --output  eDP-1 --mode 1920x1080 --output HDMI-1 --mode 1920x1080 --right-of eDP-1  &
