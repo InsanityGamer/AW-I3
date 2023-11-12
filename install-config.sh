@@ -17,5 +17,5 @@ flatpak remote-add --if-not-exists flathub \
        	https://dl.flathub.org/repo/flathub.flatpakrepo 
 #Setting user to gui target
 sudo systemctl set-default graphical.target ;
-reboot ;
+
 
