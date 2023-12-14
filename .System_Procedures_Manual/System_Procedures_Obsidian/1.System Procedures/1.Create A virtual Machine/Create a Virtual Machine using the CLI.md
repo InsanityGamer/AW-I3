@@ -1,24 +1,8 @@
-1.
-Install Virtualization Tools with DNF
-```shell
-sudo dnf update
-
-sudo dnf install @virtualization
-or
-sudo dnf groupinstall --with-optional virtualization
-```
-
-2.
-Enable Libvrtd services on your device
-```shell
-sudo systemctl enable libvrtd
-sudo systemctl restart libvrtd
-```
-
 # Important:
 This script will not work as provided in the below example.
+This section is incomplete.
 
-3.
+1.
 Example of how you would create a virtual machine from the CLI
 ```shell
 sudo virt-install --name Fedora38 \ ##name the machine
@@ -39,11 +23,10 @@ sudo virt-install --name Fedora38 \ ##name the machine
 ### --disk path /var/lib/libvirt/images/YourFileHere.qcow2
 
 	generally this will be your virtual hard disk if you're coming from VMWare, Vbox, etc
-	
-	Specifies  media to use as storage for the guest, with various options. The general format of a disk string is
+
+	Specifies  media to use as storage for the guest, with various options. The file extension type is generall .qcow2
 ### --cdrom                      /var/lib/libvirt/images/YourDirectoryHere/YourFileHere.ISO
 
 	generally this will be your ISO file containing the OS you intend to install.
-Its recommended you 
 
 [[Create a Virtual Machine]]

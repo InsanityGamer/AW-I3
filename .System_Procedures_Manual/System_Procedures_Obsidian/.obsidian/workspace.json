@@ -13,37 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Qemu/Qemu-KVM Type 1 Hypervisor.md",
+                "file": "1.System Procedures/1.Create A virtual Machine/Create a Virtual Machine using the CLI.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "059b49e441e6a35c",
+            "id": "82c710da02b9341c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Qemu/Create a Virtual Machine using a GUI.md",
+                "file": "1.System Procedures/System Procedure Index.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "3e44cde7b1ccb269",
+            "id": "c59da6731704a4de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Qemu/Create a Virtual Machine.md",
+                "file": "1.System Procedures/3.Setup RAID 5 with LVM/raid 5 in a virtual machine.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -89,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Qemu/Qemu-KVM Type 1 Hypervisor.md",
+                "file": "1.System Procedures/3.Setup RAID 5 with LVM/raid 5 in a virtual machine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Qemu/Qemu-KVM Type 1 Hypervisor.md",
+                "file": "1.System Procedures/3.Setup RAID 5 with LVM/raid 5 in a virtual machine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Qemu/Qemu-KVM Type 1 Hypervisor.md"
+                "file": "1.System Procedures/3.Setup RAID 5 with LVM/raid 5 in a virtual machine.md"
               }
             }
           }
@@ -171,26 +171,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "58aa2bf11fd4e1cb",
+  "active": "c59da6731704a4de",
   "lastOpenFiles": [
-    "Qemu/Create a Virtual Machine using a GUI.md",
-    "Qemu/Create a Virtual Machine.md",
-    "Qemu/Install Qemu-KVM.md",
-    "System Procedure Index.md",
-    "Qemu/Qemu-KVM Type 1 Hypervisor.md",
-    "Polybar/polybar.md",
-    "Fedora/Fedora.md",
+    "1.System Procedures/3.Setup RAID 5 with LVM/Setup RAID 5 with LVM.md",
+    "1.System Procedures/1.Create A virtual Machine/Create a Virtual Machine using a GUI.md",
+    "1.System Procedures/3.Setup RAID 5 with LVM/raid 5 in a virtual machine.md",
+    "1.System Procedures/3.Setup RAID 5 with LVM",
+    "1.System Procedures/System Procedure Index.md",
+    "1.System Procedures/2.Secure VPN Services/Secure VPN Services.md",
+    "Untitled.md",
+    "2.User Wiki",
+    "1.System Procedures",
+    "1.System Procedures/2.Secure VPN Services",
+    "1.System Procedures/1.Create A virtual Machine/Create a Virtual Machine.md",
+    "2.User Wiki/Fedora/Fedora.md",
+    "1.System Procedures/1.Create A virtual Machine/Create a Virtual Machine using the CLI.md",
+    "1.System Procedures/1.Create A virtual Machine/Install Qemu-KVM.md",
+    "1.System Procedures/1.Create A virtual Machine/kvm.md",
+    "1.System Procedures/1.Create A virtual Machine/Qemu-KVM Type 1 Hypervisor.md",
+    "1.System Procedures/1.Create A virtual Machine/qemu.md",
+    "Qemu/Create a virtual machine with a TUI.md",
+    "2.User Wiki/Polybar/Install Poly Bar.md",
+    "Qemu/CLI Hell.md",
+    "2.User Wiki/Polybar/polybar.md",
+    "2.User Wiki/I3/I3.md",
     "2023-10-07.md",
     "Untitled 3.canvas",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "I3.md",
-    "Polybar",
-    "Qemu/kvm.md",
-    "Qemu/qemu.md",
+    "2.User Wiki/Polybar",
     "Qemu/Qemu-KVM-Virt-Manager.md",
-    "Fedora",
-    "Qemu"
+    "2.User Wiki/Fedora",
+    "1.System Procedures/1.Create A virtual Machine"
   ]
 }
