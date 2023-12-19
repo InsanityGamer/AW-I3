@@ -15,23 +15,23 @@
     normal-background:           rgba ( 152, 108, 128, 3 % );
     bordercolor:                 rgba ( 232, 234, 246, 100 % );
     alternate-active-background: rgba ( 0, 96, 100, 100 % );
-    active-foreground:           rgba ( 178, 235, 242, 100 % );
+    active-foreground:           rgba ( 0, 0, 0, 100 % );
     blue:                        rgba ( 38, 139, 210, 100 % );
     alternate-normal-foreground: var(foreground);
     urgent-background:           rgba ( 223, 110, 0, 6 % );
-    selected-normal-foreground:  rgba ( 232, 234, 246, 100 % );
+    selected-normal-foreground:  rgba ( 0, 0, 0, 100 % );
     selected-active-background:  rgba ( 178, 235, 242, 100 % );
-    background:                  rgba ( 26, 35, 126, 100 % );
+    background:                  rgba ( 255, 50, 0, 100 % );
     selected-urgent-background:  rgba ( 255, 205, 210, 100 % );
     active-background:           rgba ( 223, 110, 0, 6 % );
     alternate-active-foreground: var(active-foreground);
-    alternate-normal-background: rgba ( 40, 53, 147, 100 % );
-    foreground:                  rgba ( 232, 234, 246, 100 % );
+    alternate-normal-background: rgba ( 180, 0, 0, 100 % );
+    foreground:                  rgba ( 180, 180, 180, 100 % );
     alternate-urgent-foreground: var(urgent-foreground);
     selected-urgent-foreground:  rgba ( 183, 28, 28, 100 % );
     spacing:                     2;
     normal-foreground:           var(foreground);
-    selected-normal-background:  rgba ( 63, 81, 181, 100 % );
+    selected-normal-background:  rgba ( 255, 200, 110, 100 % );
 }
 window {
     padding:          5;
@@ -103,9 +103,9 @@ element-text {
     text-color:       inherit;
 }
 scrollbar {
-    width:        4px ;
+    width:        0px ;
     padding:      0;
-    handle-width: 8px ;
+    handle-width: 0px ;
     border:       0;
 }
 mode-switcher {

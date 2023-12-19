@@ -1,10 +1,12 @@
 flatpak             
+nm-connection-editor-desktop
 nm-connection-editor
 htop             
 dunst            
 spectacle        
-qterminal
 feh              
+alacritty 
+neovim
 slick-greeter    
 lightdm          
 xrandr
