@@ -1,16 +1,15 @@
 flatpak             
-nm-connection-editor-desktop
-nm-connection-editor
-htop             
+nm-connection-editor-desktop 
+nm-connection-editor 
 dunst            
 spectacle        
 feh              
 alacritty 
-neovim
+neovim 
 slick-greeter    
 lightdm          
-xrandr
-polybar
+xrandr 
+polybar 
 pavucontrol      
 firefox  
 Xorg i3 rofi -y 
