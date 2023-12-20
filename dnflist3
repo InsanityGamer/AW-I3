@@ -1,5 +1,6 @@
 flatpak             
 ripgrep 
+gcc
 nm-connection-editor-desktop 
 nm-connection-editor 
 htop 
