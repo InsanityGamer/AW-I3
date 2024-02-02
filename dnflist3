@@ -6,13 +6,17 @@ nm-connection-editor
 htop 
 dunst            
 spectacle        
-feh              
+firefox  
 alacritty 
 neovim 
-slick-greeter    
-lightdm          
-xrandr 
-polybar 
 pavucontrol      
-firefox  
-Xorg i3 rofi -y 
+polybar 
+feh              
+lightdm          
+slick-greeter    
+xset 
+xrandr 
+rofi 
+i3 
+Xorg 
+-y 
