@@ -11,6 +11,7 @@ cp -R ./.config $HOME/ ;
 cp ./.bashrc $HOME/ ;
 #Pass a list into dnf package manager using Xargs as a handler
 cat ./dnflist3 | xargs sudo dnf install ;
+sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm ;
 #flathub repo added
 flatpak remote-add --if-not-exists flathub \
        	https://dl.flathub.org/repo/flathub.flatpakrepo ;
