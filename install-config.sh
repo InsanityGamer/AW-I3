@@ -15,5 +15,8 @@ flatpak remote-add --if-not-exists flathub \
        	https://dl.flathub.org/repo/flathub.flatpakrepo ;
 #install obsidian
 flatpak install md.obsidian.Obsidian -y ;
+# add aliases and PS1 Var
+echo "PS1='==\w==\h==\t==\n-->'" >> ~/.bashrc ;
+echo "export PS1" >> ~/.bashrc ;
 #Setting user to gui target
 sudo systemctl set-default graphical.target ;
