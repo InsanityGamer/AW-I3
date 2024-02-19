@@ -12,8 +12,8 @@ cp -R ./.config $HOME/ ;
 cat ./dnflist3 | xargs sudo dnf install ;
 #flathub repo added
 flatpak remote-add --if-not-exists flathub \
-       	https://dl.flathub.org/repo/flathub.flatpakrepo 
+       	https://dl.flathub.org/repo/flathub.flatpakrepo ;
+#install obsidian
+flatpak install md.obsidian.Obsidian -y ;
 #Setting user to gui target
 sudo systemctl set-default graphical.target ;
-reboot ;
-
