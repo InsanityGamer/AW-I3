@@ -1,4 +1,4 @@
-flatpak             
+flatpak 
 ripgrep 
 gcc
 nm-connection-editor-desktop 
@@ -19,3 +19,5 @@ xrandr
 rofi 
 i3 
 Xorg 
+-y
+

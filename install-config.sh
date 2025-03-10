@@ -9,13 +9,14 @@ cd $HOME/AW-I3/ ;
 #Copying configs into USER home folder
 cp -R ./.config $HOME/ ;
 cp ./.bashrc $HOME/ ;
-#Pass a list into dnf package manager using Xargs as a handler
-cat ./dnflist3 | xargs sudo dnf install ;
-sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm ;
+# add flatpak and rpmfusion
+sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm flatpak -y;
 #flathub repo added
 flatpak remote-add --if-not-exists flathub \
        	https://dl.flathub.org/repo/flathub.flatpakrepo ;
 #install obsidian
 flatpak install md.obsidian.Obsidian -y ;
+#Pass a list into dnf package manager using Xargs as a handler
+cat ./dnflist3 | xargs sudo dnf install ;
 #Setting user to gui target
 sudo systemctl set-default graphical.target ;
