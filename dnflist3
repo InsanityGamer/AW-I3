@@ -1,23 +1,22 @@
 flatpak 
 ripgrep 
-gcc
+gcc 
 nm-connection-editor-desktop 
 nm-connection-editor 
-htop 
-dunst            
-gnome-screenshot
-firefox  
+dunst 
+gnome-screenshot 
+firefox 
 alacritty 
 neovim 
-pavucontrol      
+pavucontrol 
 xfce4-panel  
-feh              
-lightdm          
-slick-greeter    
+feh      
 xset 
 xrandr 
 rofi 
 i3 
+xinit 
+greetd tuigreet 
 Xorg 
 -y
 
