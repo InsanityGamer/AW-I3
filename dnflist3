@@ -8,7 +8,7 @@ gnome-screenshot
 firefox 
 alacritty 
 neovim 
-pavucontrol 
+pavucontrol pipewire libglvnd-gles  
 xfce4-panel  
 xfce4-settings 
 thunar 
