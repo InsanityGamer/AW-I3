@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Reboot
+Comment=
+Exec=init 6
+Icon=media-playlist-repeat
+Path=
+Terminal=false
+StartupNotify=false
