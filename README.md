@@ -1,5 +1,5 @@
 #
-Optimal to start from a base FedoraServer/37/38/39? install
+Optimal to start from a base FedoraServer40 install
 
 Steps:
 
@@ -16,8 +16,30 @@ Steps:
 ```bash ./AW-I3/install-config.sh```
 
 ## Goals:
+-provides a quick method of installing a lightweight GUI (400mb) and basic tooling.
 
--integrate new things i learn about linux, security, networking, and services.
+Components
 
--provides a quick method of installing a lightweight GUI and basic tools.
+flatpak - fedoras open source altennative package manager
+ripgrep -used for nvim
+gcc - binary management
+nm-connection-editor-desktop -Networking tool
+nm-connection-editor - networking tool
+dunst - notification tool
+gnome-screenshot - screenshot tool
+firefox - Browser
+alacritty - terminal
+neovim - vi with tools and plugins
+pavucontrol pipewire libglvnd-gles - audio manager 
+xfce4-panel  - xfce is cool
+xfce4-settings - configured bars
+thunar - GUI file manager
+feh - photo manager
+xset - x server manager
+xrandr - x server resolution
+rofi - Program launcher
+i3 - Easy to use Window manager
+xinit - lets isolate the x server from login
+greetd tuigreet - Tui login manger
+Xorg - X server
 
