@@ -1,14 +1,13 @@
 #!/bin/bash
-#Author: InsanityGamer
-#Purpose: Installs my config files and packages automatically from tty1
+#Author: Sean M
+#Purpose: Installs config files and packages automatically from tty1 (start from most recent Fedora Server OS)
 #Usage: ./install-config.sh
-#Instruction: use git pull inside of your user home directory
+#Instruction: Ensure the script is placed in user home directoy.
 
 #Enter the file containing this script
 cd $HOME/AW-I3/ ;
 # add flatpak and rpmfusion
 sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y;
-sudo dnf install flatpak -y;
 #flathub repo added
 flatpak remote-add --if-not-exists flathub \
        	https://dl.flathub.org/repo/flathub.flatpakrepo ;
