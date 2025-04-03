@@ -20,7 +20,7 @@ Steps:
 
 Components
 
-flatpak - fedoras open source altennative package manager
+flatpak - fedoras open source altennative package manager \
 ripgrep -used for nvim
 gcc - binary management
 nm-connection-editor-desktop -Networking tool
