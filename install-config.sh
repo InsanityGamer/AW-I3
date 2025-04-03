@@ -11,10 +11,10 @@ sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-releas
 #flathub repo added
 flatpak remote-add --if-not-exists flathub \
        	https://dl.flathub.org/repo/flathub.flatpakrepo ;
-#install obsidian
-flatpak install md.obsidian.Obsidian -y ;
 #Pass a list into dnf package manager using Xargs as a handler
 cat ./dnflist3 | xargs sudo dnf install ;
+#install obsidian
+flatpak install md.obsidian.Obsidian -y ;
 #Setting user to gui target
 sudo systemctl set-default graphical.target ;
 #Copying configs into USER home folder
