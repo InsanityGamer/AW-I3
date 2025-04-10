@@ -8,11 +8,12 @@
 cd $HOME/AW-I3/ ;
 # add flatpak and rpmfusion
 sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y;
+
+#Pass a list into dnf package manager using Xargs as a handler
+cat ./dnflist3 | xargs sudo dnf install ;
 #flathub repo added
 flatpak remote-add --if-not-exists flathub \
        	https://dl.flathub.org/repo/flathub.flatpakrepo ;
-#Pass a list into dnf package manager using Xargs as a handler
-cat ./dnflist3 | xargs sudo dnf install ;
 #install obsidian
 flatpak install md.obsidian.Obsidian -y ;
 #Setting user to gui target
