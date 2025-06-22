@@ -89,7 +89,7 @@
       </property>
     </property>
     <property name="plugin-22" type="string" value="directorymenu">
-      <property name="base-directory" type="string" value="/home/sean"/>
+      <property name="base-directory" type="string" value="/home/"/>
       <property name="icon-name" type="string" value="folder"/>
       <property name="hidden-files" type="bool" value="false"/>
       <property name="open-folder" type="bool" value="true"/>
