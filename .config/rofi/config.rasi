@@ -1,6 +1,6 @@
 /* Rofi Configuration and Theme */
 configuration {
-    modi: "drun"; /* Use drun mode for desktop applications */
+    modi: "drun,run"; /* Use drun mode for desktop applications */
     show-icons: true; /* Display application icons */
     display-drun: "Apps"; /* Label for drun mode */
     sidebar-mode: false; /* Disable sidebar */
@@ -12,9 +12,11 @@ window {
     width: 100%; /* Full screen width */
     height: 100%; /* Full screen height */
     transparency: "real"; /* Enable transparency if compositor is active */
-    background-color: rgba(28, 28, 28, 0.95); /* Dark semi-transparent background */
-    border: 0px; /* No border */
+    background-color: rgba(28, 50, 28, 0.95); /* Dark semi-transparent background */
+    border: 10px; /* No border */
+    border-color: rgba(50,100,50,1);
     padding: 0px; /* No padding around window */
+    border-radius: 8px; /* Rounded corners */
 }
 
 /* Main content box */
@@ -22,7 +24,7 @@ mainbox {
     orientation: vertical; /* Stack elements vertically */
     spacing: 10px; /* Space between elements */
     padding: 20px; /* Padding inside main box */
-    background-color: transparent;
+    background-color: transparent; /* Dark semi-transparent background */
 }
 
 /* Search bar (inputbar) */
@@ -56,21 +58,22 @@ listview {
     width: 30%; /* Application list takes 30% of screen width */
     margin: 0px 0px 0px 20px; /* Shift list slightly right from left edge */
     padding: 10px; /* Padding inside list */
-    columns: 1; /* Single column for vertical list */
-    lines: 20; /* Number of visible entries */
+    columns: 4; /* Single column for vertical list */
+    lines: 5; /* Number of visible entries */
     fixed-height: false; /* Dynamic height */
-    background-color: rgba(40, 40, 40, 0.8); /* Subtle background */
+    background-color: rgba(28, 80, 28, 0.95); /* Dark semi-transparent background */
     border-radius: 8px; /* Rounded corners */
     scrollbar: false; /* Disable scrollbar */
 }
 
 /* Application entry styling */
 element {
-    orientation: horizontal; /* Icon and text side by side */
-    padding: 8px 12px; /* Padding for each entry */
+    orientation: vertical; /* Icon and text side by side */
+    padding: 5px 5px; /* Padding for each entry */
     text-color: #ffffff; /* White text */
     background-color: rgba(40, 40, 40, 0.8); /* Match listview background */
     border-radius: 5px;
+    margin: 10px;
 }
 
 /* Explicitly disable alternating pattern and default backgrounds */
